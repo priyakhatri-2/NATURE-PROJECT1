@@ -1,0 +1,90 @@
+/* ================= ABOUT PAGE ================= */
+.page {
+  width: 100%;
+  min-height: calc(100vh - 65px);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f7fa;
+}
+
+/* Heading */
+.page h2 {
+  font-size: 28px;
+  color: #0a3d62;
+  margin-bottom: 18px;
+}
+
+/* Quote */
+.quote {
+  max-width: 800px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* ================= COUNTER ================= */
+.counter {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
+}
+
+.counter h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #222;
+}
+
+/* Buttons */
+.counter button {
+  padding: 10px 20px;
+  margin: 8px;
+  font-size: 16px;
+  background-color: #0a3d62;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.counter button:hover {
+  background-color: #07406a;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  .page {
+    padding: 25px 15px;
+  }
+
+  .page h2 {
+    font-size: 22px;
+  }
+
+  .quote {
+    font-size: 16px;
+  }
+
+  .counter {
+    padding: 22px;
+  }
+
+  .counter h3 {
+    font-size: 18px;
+  }
+
+  .counter button {
+    width: 100%;
+    margin: 8px 0;
+  }
+}

@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+  background: #2e7d32;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  color: white;
+}
+
+/* Pages */
+.page {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Home */
+.home-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.home-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.quote {
+  margin-top: 20px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Counter */
+.counter button {
+  padding: 10px 15px;
+  margin: 10px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.contact-form button {
+  padding: 10px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
